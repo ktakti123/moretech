@@ -1,0 +1,344 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+p{
+  margin: 0;
+  padding: 0;
+}
+.navbox{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  padding: 0 20px 0 20px;
+  width: 100vw;
+  height: 90px;
+  background-color:rgb(234 234 234);
+}
+.navboxinner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:1600px;
+  height: 100%;
+  overflow: hidden;
+}
+.logo{
+width: 230px;
+height: 50px;
+}
+.navlist{
+  width: 700px;
+  height: 100%;
+}
+.navText{
+  display: flex;  
+  line-height:100px; 
+  middle; gap: 30px;
+  font-size: 16px;
+  white-space: nowrap;
+}
+.contactbox{
+  background-color:  #002c7d;
+  width: 210px;
+  height: 50px;
+  box-shadow: 0px 11px 21.25px 3.75px rgb(194 191 255 / 65%) !important;
+  border-radius: 5px;
+  font-size: 18px;
+  color: white; font-family:'Poppins', sans-serif; font-weight: 600; text-align: center; padding-top: 11px;
+}
+.dashboard{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(181, 182, 184);
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  overflow: hidden;
+}
+.dashboardinner{
+  padding-right: 50px;
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 5vw;
+  width:1600px;
+  height: 100%;
+}
+.dashboardtextbox{
+width: 480px;
+height: 300px;
+display: inline-block;
+
+}
+.dashboardimage{
+width: 750px;
+  height: 550px;
+}
+.dashboardtextheading{
+  font-size: 42px;
+  white-space:initial;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  line-height: 53px;
+}
+.dashboardsubtext{
+  font-size: 19px;
+  white-space:initial;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 23px;
+  color: rgb(41, 40, 40);
+  margin-top: 20px;
+}
+.services{
+  text-align: center;
+  width: 700px;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+.subhead{
+  margin-top: 120px;
+  font-size: 18px;
+  color: rgb(119, 62, 169);
+  font-weight:400;
+}
+.head{
+font-weight: 600;
+font-size: 32px;
+margin-top: 40px;
+}
+.description{
+ margin-top: 40px;
+ font-size: 16px;
+}
+.flexbox{
+  max-width: 1400px;
+  height: 260px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  
+}
+.container{
+  width: 300px;
+  height: 250px ;
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 0px 11px 21.25px 3.75px rgb(219 205 205 / 45%);
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(0.25turn, rgba(255,249,34), rgba(255,0,128), rgba(56,2,155,0));
+  border-image-slice: 1;
+  text-align: center;
+}
+.innercontainer{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 11px 21.25px 3.75px rgb(219 205 205 / 45%);
+  border: 1px solid rgb(213, 213, 213);
+  
+}
+.innericons{
+margin-top: 30px ;
+font-size: 32px;
+}
+.containertext{
+  margin-top: 40px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.tools{
+  max-width: 1600px;
+  height: 697px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.bodyimage{
+ width: 60%;
+ height: 100%;
+}
+.bodytext{
+  width: 40%;
+  height: 100%;
+}
+.bodyoneimage{
+  margin-left: 20px;
+}
+.bodytextcontainer{
+  display: inline-block;
+  width: 100%;
+  height: 210px;
+  padding-left: 40px;
+  padding-right: 100px;
+  padding-top: 20px;
+  margin-top: 2px;
+  background-color: rgb(255, 255, 255);
+  transition: 1s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.bodytextcontainer:hover{
+  background-color: rgb(59, 188, 145);
+}
+.bodyheading{
+  font-size: 28px;
+  color: rgb(119, 62, 169);
+  font-weight:500;
+}
+.bodysubtext{
+  font-size: 18px;
+  line-height: 40px;
+}
+.features{
+  position: relative;
+  text-align: center;
+  max-width: 1400px;
+  height: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  padding-left: 20px;
+}
+.featuresimage{
+  position: absolute;
+  right: 10px;
+  top: 300px;
+}
+.featuresdescriptionheading{
+  margin-top: 40px;
+  font-size: 28px;
+  text-align: left;
+  width: 700px;
+}
+.featuresdescription{
+  margin-top: 40px;
+  font-size: 16px;
+  text-align: left;
+  width: 700px;
+ }
+
+.featuresdescriptionlist{
+  margin-top: 40px;
+  font-size: 16px;
+  text-align: left;
+  width: 700px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+ }
+ .desciptionicon{
+  margin-right: 40px;
+ }
+ .aboutbox{
+  margin-top: 40px;
+  background-color:  #002c7d;
+  width: 210px;
+  height: 50px;
+  box-shadow: 0px 11px 21.25px 3.75px rgb(194 191 255 / 65%) !important;
+  border-radius: 5px;
+  font-size: 18px;
+  color: white; font-family:'Poppins', sans-serif; font-weight: 600; text-align: center; padding-top: 11px;
+}
+
+.subscribe{
+  width: 100%;
+  height: 300px;
+  background-color: #2fbba5;
+  text-align: center;
+  margin-top: 40px;
+
+}
+.subscribebox{
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:  white;
+  width: 320px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: rgb(42, 42, 42); font-family:'Poppins', sans-serif; font-weight: 600; text-align: center; padding-top: 11px;
+}
+.subscribesubhead{
+  padding-top: 35px;
+  font-size: 18px;
+  color: white;
+  font-weight:500;
+}
+.subscribehead{
+ color: white;
+ font-weight: 600;
+ font-size: 32px;
+ margin-top: 20px;
+}
+
+
+footer {
+  height: 500px;
+  padding-top: 100px;
+  
+}
+.footerheading{
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.footer-column {
+  width: 300px; 
+  padding: 0 20px;
+}
+
+
+.footer-column a {
+  color: #3d3d3d;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+li{
+  margin-top: 10px;
+}
+.logofooter{
+  width: 230px;
+  height: 50px;
+  margin-bottom: 40px;
+  }
+
+
+
+
+
+  @media only screen and (max-width: 1380px) {
+    .dashboardtextbox {
+    width: 325px;
+    }
+  }
